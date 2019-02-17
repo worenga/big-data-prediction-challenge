@@ -4,9 +4,9 @@ Einreichung für die it-talents.de / Materna IT Code-Competition Dezember 2018 (
 # Kurzbeschreibung
 In unserer Lösung wird versucht zunaechst die bereitgestellten Daten aufzubereiten.
 Anschliessend, explorieren und visualisieren wir die Daten.
-Zu guter letzt trainieren wir zwei Feed-Forward neuronalen Netze zu um folgende Modelle bereitzustellen:
+Zu guter Letzt trainieren wir zwei Feed-Forward neuronalen Netze um folgende Modelle bereitzustellen:
 
-- Ein Modell zur Berechnung des Gewinners bei gegebener Strecke, Herausforderer und Opponent, sowie Datum und Wettervorhersage In unserer Loesung benutzen wir ein Feed-Forward deep neuronales Netz mit Embeddings fuer kategorische Variablen, sowie Dropouts. Wir erreichen eine Genauigkeit von 74% bei der Vorhersage des Gewinners nur anhand von Datum, Strecke und Wettervorhersage. 
+- Ein Modell zur Berechnung des Gewinners bei gegebener Strecke, Herausforderer und Opponent, sowie Datum und Wettervorhersage. In unserer Loesung benutzen wir ein Feed-Forward deep neuronales Netz mit Embeddings fuer kategorische Variablen, sowie Dropouts. Wir erreichen eine Genauigkeit von 74% bei der Vorhersage des Gewinners nur anhand von Datum, Strecke und Wettervorhersage. 
 - Ein Modell zur Schaetzung des Spritverbrauchs (fuel_consumption). Wir modifizieren dazu unser vorheriges Modell zur Schaetzung einer kontinuierlichen Variable. 
 
 
